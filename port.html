@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Webdev Maniac | Portfolio</title>
+    <meta name="description" content="Portfolio of Scott Chen, 3 chosen past works and short descriptions. project page upon click">
+    <meta name="author" content="Scott Chen">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Base Stylsheets http://twitter.github.com/bootstrap/ -->
+    <link rel="stylesheet" href="stylesheets/lib/bootstrap.css" >
+    <link rel="stylesheet" href="stylesheets/lib/jquery.fancybox.css" >
+
+
+    <!-- Your Stylesheets -->
+    <link rel="stylesheet" href="stylesheets/main.css" >
+
+    <!-- Base Javascripts -->
+    <script src="javascripts/lib/base.js"></script>
+
+    <!-- Fancybox Lightbox http://fancyapps.com/fancybox/#examples -->
+    <script src="javascripts/lib/jquery.fancybox.js"></script>
+
+
+    <!-- Your Javascripts -->
+    <script src="javascripts/main.js"></script>
+
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="row" id="top_nav">
+
+            <div class="span3" id="logo">
+          	<a href="index.html"><img src="images/logo.png" height="80"></a>
+            </div>
+    
+            <div class="span9 offset4">
+              <div class="row">
+                <div class="span9 nav_button">
+                    <span>
+                        <a href="index.html">Home</a>
+                    </span>  
+                    <span class=" active">
+                        <a href="port.html">Portfolio</a>
+                    </span>  
+                    <span>
+                        <a href="about.html">About</a>
+                    </span>  
+                </div>
+              </div>
+            </div>
+         
+          </div> <!-- end row -->
+		
+        <div class="row" id="gallery">
+			<div class="span-one-third">
+            	<a href="#">
+                    <img src="images/gallery1.jpg" width="100%" id="proj1_thumb">
+        		</a>
+                    <div class="gallery_title">WebDev Maniacs --- Portfolio Page</div>
+                    <div class="gallery_short">A Portfolio page, created in CSE 187A of UC San Diego to practice concepts learned in such class.</div>
+            </div>
+			<div class="span-one-third">
+				<a href="#">
+	            	<img src="images/gallery2.jpg" width="100%" id="proj2_thumb">
+        		</a>
+    	            <div class="gallery_title">Flascii --- Ascii Art</div>
+                    <div class="gallery_short">A very cool and out-of-the-box web-based project created during Yahoo Hack Week. This website is capable of giving you the pictures you want - in the form of colorful ascii characters!</div>
+            </div>
+			<div class="span-one-third">
+            	<a href="#">
+	                <img src="images/gallery3.jpg" width="100%" id="proj3_thumb">
+        		</a>
+    	            <div class="gallery_title">Vuut --- Social Intelligent E-commerce</div>
+                    <div class="gallery_short">Start-up project I was involved in, to create a social shopping catalog platform on which users discover new fashion automatically recommended to them to fit their taste, as well as collecting and sharing their favorite items.</div>
+            </div>
+        </div>
+        
+        <div class="project_div" id="proj1">
+        	<div class="row">
+            	<div class="span-one-third">
+                    <ul class="media-grid">
+                        <li>
+                            <a class="fancybox" href="images/proj1_big.png">
+                                <img src="images/proj1_big.png" width="350" alt=""/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+				<div class="span8 offset2">
+                	<h2>Webdev Maniacs</h2>
+                	<ul>
+                		<li>This project was the first time I've ever created my own portfolio. It was for a Cognitive Science class (187A).</li>
+                        <li>It uses a clean 4-box layout </li>
+                        <li>Name was chosen, and logo was designed by me. Banner image was found on google. </li>
+                        <li>subtle transitions are used to keep users engaged.</li>
+                        <li> It also lists out my skills and contact, and hopefully will get someone to hire me.</li>
+                	</ul>
+	            <a href="#" class="back">Back to Gallery</a>
+                </div>
+             </div>
+        </div>  
+        <div class="project_div" id="proj2">
+        	<div class="row">
+            	<div class="span-one-third">
+                    <ul class="media-grid">
+                        <li>
+                            <a class="fancybox" href="images/proj2_big.png">
+                                <img src="images/proj2_big.png" width="350" alt=""/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+				<div class="span8 offset2">
+                	<h2>Flascii</h2>
+                	<ul>
+                		<li>This project was created by me and my friends during Yahoo Hack Week.</li>
+                        <li>It's where ASCII meets Picasso</li>
+                        <li>Picture are fetched from flickr's API, then converted to black/white or colored ASCII characters with Javascript.</li>
+                        <li>Also graphs and passages to explain the whole process</li>
+                        <li>Try it! <a href="http://flascii.com">flascii.com</a> </li>
+                	</ul>
+             	<a href="#" class="back">Back to Gallery</a>
+                </div>
+             </div>
+        </div>	
+        <div class="project_div" id="proj3">
+        	<div class="row">
+            	<div class="span-one-third">
+                    <ul class="media-grid">
+                        <li>
+                            <a class="fancybox" href="images/proj3_big.png">
+                                <img src="images/proj3_big.png" width="350" alt=""/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+				<div class="span8 offset2">
+                	<h2>Vuut</h2>
+                	<ul>
+                		<li>The first start-up attempt that I've made</li>
+                        <li>Invested 6 months creating this social platform</li>
+                        <li>Users search and look at items they like, and Vuut will come up with more products user might like</li>
+                        <li>Users can collect in their closet and share right on Vuut or on other social networks</li>
+                        <li>Massive PHP scripts and SQL strutures were used, as well as fancy CSS and JS effects.</li>
+                	</ul>
+             	<a href="#" class="back">Back to Gallery</a>
+                </div>
+             </div>
+        </div>	
+        
+    </div> <!-- end container -->
+
+	<footer>
+        <span>
+            <a href="index.html">Home</a>
+        </span>  
+        <span>
+            <a href="port.html">Portfolio</a>
+        </span>  
+        <span>
+            <a href="about.html">About</a>
+        </span> 
+        <br/>
+        <br/>
+    	Website by Sze Hao (Scott) Chen | <a href="mailto:scott6306@gmail.com">scott6306@gmail.com</a> | Last Updated in January 2012 | Banner image found on Google Image  
+    </footer>
+  </body>
+</html>

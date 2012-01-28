@@ -1,0 +1,101 @@
+body{
+	background: url("http://www.dolcegabbanalightblue.com/assets/images/backgrounds/bg_gradient.jpg");	
+}
+.container{
+	min-height: 600px;
+}
+.icon{
+	position:relative;
+	top: 40px;
+}
+#about{
+	margin-top: 60px;	
+}
+#top_nav{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.nav_button{
+	font-weight: bold;
+	text-align:right;
+	font-size: x-large;
+}
+.nav_button span{
+	display:inline-block;
+	padding: 20px;
+	padding-top: 40px;
+}
+.nav_button a{
+	color: #999;
+}
+.active a{
+	color:black;
+	text-shadow: gray 2px 2px 3px;
+}
+.nav_button a:hover{
+	color:#C63;
+}
+#gallery{
+	position:relative;
+	margin-top: 100px;
+}
+#gallery img{
+	position:relative;
+	bottom: 0px;
+	width:100%;
+}
+#gallery img:hover{
+	-moz-box-shadow: 0 0 3px 3px #BBB;
+	-webkit-box-shadow: 0 0 3px 3px #BBB;
+	box-shadow: 0 0 3px 3px #BBB;
+}
+.gallery_title{
+	position:relative;
+	bottom:30px;
+	padding: 5px;
+	color:white;
+	width:290px;
+	display:none;
+	font-size:medium;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(0, 0, 0) transparent;
+	/* RGBa with 0.6 opacity */
+	background: rgba(0, 0, 0, 0.8);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+.gallery_short{
+	display:none;
+	text-shadow: gray 1px 1px 2px;
+}
+#gallery > div:hover .gallery_title,#gallery > div:hover .gallery_short {
+	display:block;	
+}
+footer{
+	margin-top:50px;
+	padding: 5px;
+	background:black;
+	color:white;
+	text-align:center;
+}
+footer > span {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.project_div{
+	display:none;
+	margin-top: 100px;
+}
+#about_img{
+	background:white;
+	padding: 3px;
+	border: 1px solid black;
+	position:absolute;
+}
+#about_info{
+	text-align:justify;
+	text-shadow: gray 1px 1px 2px;
+}
